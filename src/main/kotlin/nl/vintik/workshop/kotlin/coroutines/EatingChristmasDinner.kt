@@ -78,8 +78,6 @@ fun fillDaHouse(): UnicornHouse {
         null
     )
     val daHouse = UnicornHouse()
-    daHouse.enter(badUnicorn)
-    daHouse.enter(europeanUnicorn)
-    daHouse.enter(mildUnicorn)
+    daHouse.bulkEnter(badUnicorn, europeanUnicorn, mildUnicorn)
     return daHouse
 }
