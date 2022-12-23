@@ -1,1 +1,1 @@
-# kotlin-workshop
+# Solution to the Unicorn challenge
